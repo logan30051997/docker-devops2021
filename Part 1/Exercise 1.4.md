@@ -17,4 +17,4 @@ Solution 1:
 
 Solution 2:
 
-`docker run -d -it --name web ubuntu sh -c 'apt update && apt install -y curl && echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'`
+`docker run -it --name web ubuntu sh -c 'apt update && apt install -y curl && echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'`
