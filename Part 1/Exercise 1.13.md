@@ -19,4 +19,11 @@ RUN go build
 CMD ./server
 ```
 
+## Command
+
+`sudo docker run -d -p 8080:8080 test`
+
+
+
+
 ![image](https://user-images.githubusercontent.com/75350516/176168093-cacc8f88-80ac-4c76-b2ea-7d7374be025a.png)
