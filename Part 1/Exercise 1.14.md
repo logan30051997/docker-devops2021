@@ -37,7 +37,7 @@ RUN apt update && apt install -y wget gcc && \
 
 ENV PATH=$PATH:/usr/local/go/bin
 
-ENV REQUEST_ORIGIN http://10.20.20.30:5000
+ENV REQUEST_ORIGIN http://localhost:5000
 
 RUN go build
 
