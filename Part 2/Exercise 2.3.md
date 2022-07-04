@@ -1,0 +1,18 @@
+## Docker-compose
+
+```
+version: '3.8'
+
+services:
+        frontend:
+                image: example-frontend
+                ports: 
+                - 5000:5000
+                container_name: frontend 
+
+        backend:
+                image: example-backend
+                ports:
+                        - 8080:8080
+                container_name: backend
+```
