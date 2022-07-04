@@ -1,0 +1,13 @@
+## Docker-compose.yml
+
+```
+version: '3.8'
+  
+services:
+    web:
+      image: devopsdockeruh/simple-web-service
+      ports:
+        - 8080:8080
+      command: server
+~                                                                                                                                                       
+```
